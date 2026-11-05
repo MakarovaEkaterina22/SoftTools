@@ -1,0 +1,10 @@
+.env
+kaggle.json
+.kaggle/
+dags/.kaggle/
+dags/data/*
+!dags/data/.gitkeep
+__pycache__/
+
+.DS_Store
+._*
