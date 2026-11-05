@@ -1,0 +1,7 @@
+titanic_variant17-scheduler-1 Up 10 hours
+titanic_variant17-webserver-1 Up 10 hours
+titanic_variant17-superset-1 Up 10 hours (healthy)
+titanic_variant17-analytics_postgres-1 Up 10 hours (healthy)
+titanic_variant17-redis-1 Up 10 hours
+titanic_variant17-postgres-1 Up 10 hours (healthy)
+titanic_variant17-pgadmin-1 Up 10 hours

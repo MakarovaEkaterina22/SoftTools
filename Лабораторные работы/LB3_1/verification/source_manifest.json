@@ -1,0 +1,7 @@
+{
+  "source_url": "https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv",
+  "original_source": "https://www.kaggle.com/competitions/titanic/data",
+  "fallback_reason": "HTTP Error 401: Unauthorized",
+  "sha256": "4a437fde05fe5264e1701a7387ac6fb75393772ba38bb2c9c566405af5af4bd7",
+  "source_rows": 891
+}

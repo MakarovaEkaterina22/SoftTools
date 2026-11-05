@@ -1,0 +1,844 @@
+{
+  "dashboard_export_20261104T221713/metadata.yaml": {
+    "version": "1.0.0",
+    "type": "Dashboard",
+    "timestamp": "2026-11-04T22:17:13.229208+00:00"
+  },
+  "dashboard_export_20261104T221713/dashboards/Variant_17_Titanic_Passenger_Survival_1.yaml": {
+    "dashboard_title": "Variant 17 · Titanic Passenger Survival",
+    "description": null,
+    "css": null,
+    "slug": "titanic-analysis-17",
+    "certified_by": null,
+    "certification_details": null,
+    "published": true,
+    "uuid": "4b91651b-4ce6-477e-a517-ff590c6d0ab1",
+    "position": {
+      "DASHBOARD_VERSION_KEY": "v2",
+      "ROOT_ID": {
+        "id": "ROOT_ID",
+        "type": "ROOT",
+        "children": [
+          "GRID_ID"
+        ]
+      },
+      "GRID_ID": {
+        "id": "GRID_ID",
+        "type": "GRID",
+        "children": [
+          "ROW-0",
+          "ROW-1",
+          "ROW-2",
+          "ROW-N-053G1Q56"
+        ],
+        "parents": [
+          "ROOT_ID"
+        ]
+      },
+      "ROW-0": {
+        "id": "ROW-0",
+        "type": "ROW",
+        "children": [
+          "CHART-1"
+        ],
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID"
+        ],
+        "meta": {
+          "background": "BACKGROUND_TRANSPARENT"
+        }
+      },
+      "CHART-1": {
+        "id": "CHART-1",
+        "type": "CHART",
+        "children": [],
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID",
+          "ROW-0"
+        ],
+        "meta": {
+          "chartId": 1,
+          "width": 12,
+          "height": 22,
+          "sliceName": "Overall survival rate (%)"
+        }
+      },
+      "ROW-1": {
+        "id": "ROW-1",
+        "type": "ROW",
+        "children": [
+          "CHART-2",
+          "CHART-3"
+        ],
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID"
+        ],
+        "meta": {
+          "background": "BACKGROUND_TRANSPARENT"
+        }
+      },
+      "CHART-2": {
+        "id": "CHART-2",
+        "type": "CHART",
+        "children": [],
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID",
+          "ROW-1"
+        ],
+        "meta": {
+          "chartId": 2,
+          "width": 6,
+          "height": 45,
+          "sliceName": "Survival rate by passenger class"
+        }
+      },
+      "CHART-3": {
+        "id": "CHART-3",
+        "type": "CHART",
+        "children": [],
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID",
+          "ROW-1"
+        ],
+        "meta": {
+          "chartId": 3,
+          "width": 6,
+          "height": 45,
+          "sliceName": "Passengers by sex"
+        }
+      },
+      "ROW-2": {
+        "id": "ROW-2",
+        "type": "ROW",
+        "children": [
+          "CHART-4",
+          "CHART-5"
+        ],
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID"
+        ],
+        "meta": {
+          "background": "BACKGROUND_TRANSPARENT"
+        }
+      },
+      "CHART-4": {
+        "id": "CHART-4",
+        "type": "CHART",
+        "children": [],
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID",
+          "ROW-2"
+        ],
+        "meta": {
+          "chartId": 4,
+          "width": 6,
+          "height": 45,
+          "sliceName": "Passengers and survival by age group"
+        }
+      },
+      "CHART-5": {
+        "id": "CHART-5",
+        "type": "CHART",
+        "children": [],
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID",
+          "ROW-2"
+        ],
+        "meta": {
+          "chartId": 5,
+          "width": 6,
+          "height": 45,
+          "sliceName": "Survival rate versus passenger class"
+        }
+      },
+      "ROW-N-053G1Q56": {
+        "children": [
+          "CHART-OFQ50OHQ",
+          "CHART-II8RLJPV",
+          "CHART-U6XZI4FR",
+          "CHART-UH18K6QT",
+          "CHART-81S71GOJ"
+        ],
+        "id": "ROW-N-053G1Q56",
+        "meta": {
+          "0": "ROOT_ID",
+          "background": "BACKGROUND_TRANSPARENT"
+        },
+        "type": "ROW",
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID"
+        ]
+      },
+      "CHART-OFQ50OHQ": {
+        "children": [],
+        "id": "CHART-OFQ50OHQ",
+        "meta": {
+          "chartId": 1,
+          "height": 50,
+          "sliceName": "Overall survival rate (%)",
+          "uuid": "eead07f7-24a6-428b-ac9f-089a58b19d1a",
+          "width": 4
+        },
+        "type": "CHART",
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID",
+          "ROW-N-053G1Q56"
+        ]
+      },
+      "CHART-II8RLJPV": {
+        "children": [],
+        "id": "CHART-II8RLJPV",
+        "meta": {
+          "chartId": 2,
+          "height": 50,
+          "sliceName": "Survival rate by passenger class",
+          "uuid": "7bf1bfd2-5655-4e1e-a676-5bfa8a4fc276",
+          "width": 4
+        },
+        "type": "CHART",
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID",
+          "ROW-N-053G1Q56"
+        ]
+      },
+      "CHART-U6XZI4FR": {
+        "children": [],
+        "id": "CHART-U6XZI4FR",
+        "meta": {
+          "chartId": 5,
+          "height": 50,
+          "sliceName": "Survival rate versus passenger class",
+          "uuid": "78864915-6d78-4470-b7ac-213e24db78b0",
+          "width": 4
+        },
+        "type": "CHART",
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID",
+          "ROW-N-053G1Q56"
+        ]
+      },
+      "CHART-UH18K6QT": {
+        "children": [],
+        "id": "CHART-UH18K6QT",
+        "meta": {
+          "chartId": 3,
+          "height": 50,
+          "sliceName": "Passengers by sex",
+          "uuid": "c23bcd16-5484-42c3-87e5-1b424af1acce",
+          "width": 4
+        },
+        "type": "CHART",
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID",
+          "ROW-N-053G1Q56"
+        ]
+      },
+      "CHART-81S71GOJ": {
+        "children": [],
+        "id": "CHART-81S71GOJ",
+        "meta": {
+          "chartId": 4,
+          "height": 50,
+          "sliceName": "Passengers and survival by age group",
+          "uuid": "e545eda2-0a14-4a32-b673-316be4881e2a",
+          "width": 4
+        },
+        "type": "CHART",
+        "parents": [
+          "ROOT_ID",
+          "GRID_ID",
+          "ROW-N-053G1Q56"
+        ]
+      }
+    },
+    "metadata": {
+      "native_filter_configuration": [
+        {
+          "id": "NATIVE_FILTER-p_class",
+          "name": "Passenger class",
+          "filterType": "filter_select",
+          "targets": [
+            {
+              "column": {
+                "name": "p_class"
+              },
+              "datasetUuid": "4adffd7b-59ca-4f28-817e-139a4bae62ed"
+            }
+          ],
+          "defaultDataMask": {
+            "extraFormData": {},
+            "filterState": {},
+            "ownState": {}
+          },
+          "controlValues": {
+            "enableEmptyFilter": false,
+            "multiSelect": true,
+            "searchAllOptions": false,
+            "inverseSelection": false
+          },
+          "cascadeParentIds": [],
+          "scope": {
+            "rootPath": [
+              "ROOT_ID"
+            ],
+            "excluded": []
+          },
+          "type": "NATIVE_FILTER",
+          "chartsInScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "tabsInScope": []
+        },
+        {
+          "id": "NATIVE_FILTER-sex",
+          "name": "Sex",
+          "filterType": "filter_select",
+          "targets": [
+            {
+              "column": {
+                "name": "sex"
+              },
+              "datasetUuid": "4adffd7b-59ca-4f28-817e-139a4bae62ed"
+            }
+          ],
+          "defaultDataMask": {
+            "extraFormData": {},
+            "filterState": {},
+            "ownState": {}
+          },
+          "controlValues": {
+            "enableEmptyFilter": false,
+            "multiSelect": true,
+            "searchAllOptions": false,
+            "inverseSelection": false
+          },
+          "cascadeParentIds": [],
+          "scope": {
+            "rootPath": [
+              "ROOT_ID"
+            ],
+            "excluded": []
+          },
+          "type": "NATIVE_FILTER",
+          "chartsInScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "tabsInScope": []
+        },
+        {
+          "id": "NATIVE_FILTER-age_group",
+          "name": "Age group",
+          "filterType": "filter_select",
+          "targets": [
+            {
+              "column": {
+                "name": "age_group"
+              },
+              "datasetUuid": "4adffd7b-59ca-4f28-817e-139a4bae62ed"
+            }
+          ],
+          "defaultDataMask": {
+            "extraFormData": {},
+            "filterState": {},
+            "ownState": {}
+          },
+          "controlValues": {
+            "enableEmptyFilter": false,
+            "multiSelect": true,
+            "searchAllOptions": false,
+            "inverseSelection": false
+          },
+          "cascadeParentIds": [],
+          "scope": {
+            "rootPath": [
+              "ROOT_ID"
+            ],
+            "excluded": []
+          },
+          "type": "NATIVE_FILTER",
+          "chartsInScope": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "tabsInScope": []
+        }
+      ],
+      "color_scheme": "supersetColors",
+      "chart_configuration": {
+        "2": {
+          "id": 2,
+          "crossFilters": {
+            "scope": "global",
+            "chartsInScope": [
+              1,
+              3,
+              4,
+              5
+            ]
+          }
+        },
+        "3": {
+          "id": 3,
+          "crossFilters": {
+            "scope": "global",
+            "chartsInScope": [
+              1,
+              2,
+              4,
+              5
+            ]
+          }
+        },
+        "4": {
+          "id": 4,
+          "crossFilters": {
+            "scope": "global",
+            "chartsInScope": [
+              1,
+              2,
+              3,
+              5
+            ]
+          }
+        },
+        "5": {
+          "id": 5,
+          "crossFilters": {
+            "scope": "global",
+            "chartsInScope": [
+              1,
+              2,
+              3,
+              4
+            ]
+          }
+        }
+      },
+      "global_chart_configuration": {
+        "scope": {
+          "rootPath": [
+            "ROOT_ID"
+          ],
+          "excluded": []
+        },
+        "chartsInScope": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      "color_scheme_domain": [
+        "#1FA8C9",
+        "#454E7C",
+        "#5AC189",
+        "#FF7F44",
+        "#666666",
+        "#E04355",
+        "#FCC700",
+        "#A868B7",
+        "#3CCCCB",
+        "#A38F79",
+        "#8FD3E4",
+        "#A1A6BD",
+        "#ACE1C4",
+        "#FEC0A1",
+        "#B2B2B2",
+        "#EFA1AA",
+        "#FDE380",
+        "#D3B3DA",
+        "#9EE5E5",
+        "#D1C6BC"
+      ],
+      "map_label_colors": {
+        "Survival rate (%)": "#1FA8C9",
+        "Passengers": "#1FA8C9",
+        "male": "#1FA8C9",
+        "female": "#454E7C"
+      },
+      "timed_refresh_immune_slices": [],
+      "expanded_slices": {},
+      "refresh_frequency": 0,
+      "label_colors": {},
+      "shared_label_colors": [],
+      "cross_filters_enabled": true
+    },
+    "version": "1.0.0"
+  },
+  "dashboard_export_20261104T221713/charts/Overall_survival_rate_1.yaml": {
+    "slice_name": "Overall survival rate (%)",
+    "description": null,
+    "certified_by": null,
+    "certification_details": null,
+    "viz_type": "big_number_total",
+    "params": {
+      "datasource": "1__table",
+      "adhoc_filters": [],
+      "row_limit": 10000,
+      "time_range": "No filter",
+      "viz_type": "big_number_total",
+      "metric": {
+        "expressionType": "SQL",
+        "sqlExpression": "100.0 * AVG(survived)",
+        "label": "Survival rate (%)",
+        "optionName": "survival_percent"
+      },
+      "subheader": "Labelled Titanic sample · all passengers",
+      "y_axis_format": ".2f"
+    },
+    "query_context": null,
+    "cache_timeout": null,
+    "uuid": "eead07f7-24a6-428b-ac9f-089a58b19d1a",
+    "version": "1.0.0",
+    "dataset_uuid": "4adffd7b-59ca-4f28-817e-139a4bae62ed"
+  },
+  "dashboard_export_20261104T221713/datasets/Titanic_Analytics/titanic_datamart.yaml": {
+    "table_name": "titanic_datamart",
+    "main_dttm_col": null,
+    "description": null,
+    "default_endpoint": null,
+    "offset": 0,
+    "cache_timeout": null,
+    "catalog": null,
+    "schema": "public",
+    "sql": null,
+    "params": null,
+    "template_params": null,
+    "filter_select_enabled": true,
+    "fetch_values_predicate": null,
+    "extra": null,
+    "normalize_columns": false,
+    "always_filter_main_dttm": false,
+    "uuid": "4adffd7b-59ca-4f28-817e-139a4bae62ed",
+    "metrics": [
+      {
+        "metric_name": "count",
+        "verbose_name": "COUNT(*)",
+        "metric_type": "count",
+        "expression": "COUNT(*)",
+        "description": null,
+        "d3format": null,
+        "currency": null,
+        "extra": null,
+        "warning_text": null
+      }
+    ],
+    "columns": [
+      {
+        "column_name": "age",
+        "verbose_name": null,
+        "is_dttm": false,
+        "is_active": true,
+        "type": "NUMERIC(6, 2)",
+        "advanced_data_type": null,
+        "groupby": true,
+        "filterable": true,
+        "expression": "",
+        "description": null,
+        "python_date_format": null,
+        "extra": null
+      },
+      {
+        "column_name": "p_class",
+        "verbose_name": null,
+        "is_dttm": false,
+        "is_active": true,
+        "type": "INTEGER",
+        "advanced_data_type": null,
+        "groupby": true,
+        "filterable": true,
+        "expression": "",
+        "description": null,
+        "python_date_format": null,
+        "extra": null
+      },
+      {
+        "column_name": "passenger_id",
+        "verbose_name": null,
+        "is_dttm": false,
+        "is_active": true,
+        "type": "INTEGER",
+        "advanced_data_type": null,
+        "groupby": true,
+        "filterable": true,
+        "expression": "",
+        "description": null,
+        "python_date_format": null,
+        "extra": null
+      },
+      {
+        "column_name": "row_id",
+        "verbose_name": null,
+        "is_dttm": false,
+        "is_active": true,
+        "type": "INTEGER",
+        "advanced_data_type": null,
+        "groupby": true,
+        "filterable": true,
+        "expression": "",
+        "description": null,
+        "python_date_format": null,
+        "extra": null
+      },
+      {
+        "column_name": "survived",
+        "verbose_name": null,
+        "is_dttm": false,
+        "is_active": true,
+        "type": "INTEGER",
+        "advanced_data_type": null,
+        "groupby": true,
+        "filterable": true,
+        "expression": "",
+        "description": null,
+        "python_date_format": null,
+        "extra": null
+      },
+      {
+        "column_name": "age_group",
+        "verbose_name": null,
+        "is_dttm": false,
+        "is_active": true,
+        "type": "TEXT",
+        "advanced_data_type": null,
+        "groupby": true,
+        "filterable": true,
+        "expression": "",
+        "description": null,
+        "python_date_format": null,
+        "extra": null
+      },
+      {
+        "column_name": "sex",
+        "verbose_name": null,
+        "is_dttm": false,
+        "is_active": true,
+        "type": "TEXT",
+        "advanced_data_type": null,
+        "groupby": true,
+        "filterable": true,
+        "expression": "",
+        "description": null,
+        "python_date_format": null,
+        "extra": null
+      },
+      {
+        "column_name": "class_label",
+        "verbose_name": null,
+        "is_dttm": false,
+        "is_active": true,
+        "type": "TEXT",
+        "advanced_data_type": null,
+        "groupby": true,
+        "filterable": true,
+        "expression": null,
+        "description": null,
+        "python_date_format": null,
+        "extra": null
+      }
+    ],
+    "version": "1.0.0",
+    "database_uuid": "7d00db0d-3be0-4d6a-87c9-c57b10cbc0d9"
+  },
+  "dashboard_export_20261104T221713/databases/Titanic_Analytics.yaml": {
+    "database_name": "Titanic Analytics",
+    "sqlalchemy_uri": "postgresql+psycopg2://analytics:analytics@analytics_postgres:5432/analytics",
+    "cache_timeout": null,
+    "expose_in_sqllab": true,
+    "allow_run_async": false,
+    "allow_ctas": false,
+    "allow_cvas": false,
+    "allow_dml": false,
+    "allow_file_upload": false,
+    "extra": {
+      "metadata_params": {},
+      "engine_params": {},
+      "metadata_cache_timeout": {},
+      "schemas_allowed_for_file_upload": []
+    },
+    "uuid": "7d00db0d-3be0-4d6a-87c9-c57b10cbc0d9",
+    "version": "1.0.0"
+  },
+  "dashboard_export_20261104T221713/charts/Passengers_by_sex_3.yaml": {
+    "slice_name": "Passengers by sex",
+    "description": null,
+    "certified_by": null,
+    "certification_details": null,
+    "viz_type": "pie",
+    "params": {
+      "datasource": "1__table",
+      "adhoc_filters": [],
+      "row_limit": 10000,
+      "time_range": "No filter",
+      "viz_type": "pie",
+      "groupby": [
+        "sex"
+      ],
+      "metric": {
+        "expressionType": "SQL",
+        "sqlExpression": "COUNT(*)",
+        "label": "Passengers",
+        "optionName": "passenger_count"
+      },
+      "show_labels": true,
+      "show_legend": true,
+      "label_type": "key_percent"
+    },
+    "query_context": null,
+    "cache_timeout": null,
+    "uuid": "c23bcd16-5484-42c3-87e5-1b424af1acce",
+    "version": "1.0.0",
+    "dataset_uuid": "4adffd7b-59ca-4f28-817e-139a4bae62ed"
+  },
+  "dashboard_export_20261104T221713/charts/Passengers_and_survival_by_age_group_4.yaml": {
+    "slice_name": "Passengers and survival by age group",
+    "description": null,
+    "certified_by": null,
+    "certification_details": null,
+    "viz_type": "mixed_timeseries",
+    "params": {
+      "datasource": "1__table",
+      "adhoc_filters": [],
+      "row_limit": 10000,
+      "time_range": "No filter",
+      "viz_type": "mixed_timeseries",
+      "x_axis": "age_group",
+      "metrics": [
+        {
+          "expressionType": "SQL",
+          "sqlExpression": "COUNT(*)",
+          "label": "Passengers",
+          "optionName": "passenger_count"
+        }
+      ],
+      "metrics_b": [
+        {
+          "expressionType": "SQL",
+          "sqlExpression": "100.0 * AVG(survived)",
+          "label": "Survival rate (%)",
+          "optionName": "survival_percent"
+        }
+      ],
+      "groupby": [],
+      "groupby_b": [],
+      "adhoc_filters_b": [],
+      "seriesType": "bar",
+      "seriesTypeB": "line",
+      "y_axis_title": "Passenger count",
+      "y_axis_title_secondary": "Survived (%)",
+      "yAxisIndex": 0,
+      "yAxisIndexB": 1,
+      "show_legend": true,
+      "x_axis_sort_asc": true,
+      "y_axis_title_margin": 50,
+      "x_axis_title_margin": 25
+    },
+    "query_context": null,
+    "cache_timeout": null,
+    "uuid": "e545eda2-0a14-4a32-b673-316be4881e2a",
+    "version": "1.0.0",
+    "dataset_uuid": "4adffd7b-59ca-4f28-817e-139a4bae62ed"
+  },
+  "dashboard_export_20261104T221713/charts/Survival_rate_by_passenger_class_2.yaml": {
+    "slice_name": "Survival rate by passenger class",
+    "description": null,
+    "certified_by": null,
+    "certification_details": null,
+    "viz_type": "echarts_timeseries_bar",
+    "params": {
+      "datasource": "1__table",
+      "adhoc_filters": [],
+      "row_limit": 10000,
+      "time_range": "No filter",
+      "viz_type": "echarts_timeseries_bar",
+      "x_axis": "class_label",
+      "metrics": [
+        {
+          "expressionType": "SQL",
+          "sqlExpression": "100.0 * AVG(survived)",
+          "label": "Survival rate (%)",
+          "optionName": "survival_percent"
+        }
+      ],
+      "groupby": [],
+      "x_axis_sort_asc": true,
+      "x_axis_title": "Passenger class (1–3)",
+      "y_axis_title": "Survived (%)",
+      "y_axis_bounds": [
+        0,
+        100
+      ],
+      "y_axis_title_margin": 50,
+      "x_axis_title_margin": 25
+    },
+    "query_context": null,
+    "cache_timeout": null,
+    "uuid": "7bf1bfd2-5655-4e1e-a676-5bfa8a4fc276",
+    "version": "1.0.0",
+    "dataset_uuid": "4adffd7b-59ca-4f28-817e-139a4bae62ed"
+  },
+  "dashboard_export_20261104T221713/charts/Survival_rate_versus_passenger_class_5.yaml": {
+    "slice_name": "Survival rate versus passenger class",
+    "description": null,
+    "certified_by": null,
+    "certification_details": null,
+    "viz_type": "echarts_timeseries_line",
+    "params": {
+      "datasource": "1__table",
+      "adhoc_filters": [],
+      "row_limit": 10000,
+      "time_range": "No filter",
+      "viz_type": "echarts_timeseries_line",
+      "x_axis": "class_label",
+      "metrics": [
+        {
+          "expressionType": "SQL",
+          "sqlExpression": "100.0 * AVG(survived)",
+          "label": "Survival rate (%)",
+          "optionName": "survival_percent"
+        }
+      ],
+      "groupby": [],
+      "x_axis_sort_asc": true,
+      "x_axis_title": "Passenger class (1–3)",
+      "y_axis_title": "Survived (%)",
+      "y_axis_bounds": [
+        0,
+        100
+      ],
+      "markerEnabled": true,
+      "y_axis_title_margin": 50,
+      "x_axis_title_margin": 25
+    },
+    "query_context": null,
+    "cache_timeout": null,
+    "uuid": "78864915-6d78-4470-b7ac-213e24db78b0",
+    "version": "1.0.0",
+    "dataset_uuid": "4adffd7b-59ca-4f28-817e-139a4bae62ed"
+  }
+}
